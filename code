@@ -1,0 +1,14 @@
+x  = [200, 400, 600, 800, 1000]
+y1 = [12,20,34,45,55]
+y2 = [15,25,36,50,60]
+y3 = [18,30,40,55,70]
+y4 = [20,35,45,60,80]
+y5 = [25,40,53,75,100]
+pics = sns.lineplot(x = x, y = y1, label='C', linewidth=2)
+sns.lineplot(x = x, y = y2, label='C++', linewidth=1)
+sns.lineplot(x = x, y = y3, label='Java', linewidth=3)
+sns.lineplot(x = x, y = y4, label='R', linewidth=2)
+sns.lineplot(x = x, y = y5, label='Python', linewidth=2)
+pics.set_xlabel('File size(GB)')
+pics.set_ylabel('Time Taken(sec)')
+pics.set_title('Performance of different programming languages')
