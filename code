@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
 x  = [200, 400, 600, 800, 1000]
 y1 = [12,20,34,45,55]
 y2 = [15,25,36,50,60]
